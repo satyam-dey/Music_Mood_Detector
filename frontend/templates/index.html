@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Mood Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Music Mood Detector</h1>
+    <p>Click the button to detect your mood and get music recommendations!</p>
+    <button onclick="detectMood()">Detect Mood</button>
+
+    <div id="result" class="result">
+      <!-- Mood and tracks will appear here -->
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
