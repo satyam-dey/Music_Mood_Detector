@@ -1,12 +1,10 @@
-Here's a polished `README.md` file for your **Music Mood Detector** project:
-
-# 🎵 Music Mood Detector AI/ML Project
+🎵 Music Mood Detector AI/ML Project
 
 This is a fun and interactive web application that uses **Facial Emotion Recognition** to detect your current mood using your webcam, then recommends **Spotify tracks** that match your emotion.
 
 ---
 
-## 💡 Features
+💡 Features
 
 - 🎥 Real-time face emotion detection using webcam
 - 🧠 AI/ML powered emotion recognition (FER with MTCNN)
@@ -17,9 +15,9 @@ This is a fun and interactive web application that uses **Facial Emotion Recogni
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
-```
+
 
     MUSIC\_MOOD\_DETECTOR/
             ├── backend/
@@ -33,8 +31,9 @@ This is a fun and interactive web application that uses **Facial Emotion Recogni
             │       └── script.js            # Frontend JS logic
             └── README.md
 
+---
 
-## ⚙️ Setup Instructions
+⚙️ Setup Instructions
 
 ### 1. Clone the Repo
 
